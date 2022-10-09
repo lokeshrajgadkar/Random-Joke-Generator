@@ -6,19 +6,19 @@
 }
 
 body {
-    background-color:#a53510 ;
+    background-color:#98cbec ;
 }
 
 .wrapper{
     width: 80vmin;
     padding: 50px 40px;
-    background-color: rgb(28, 96, 206);
+    background-color: rgb(35, 69, 222);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     border-radius: 5px;
-    box-shadow: 20px 20px 40px rgba(216, 181, 114, 0.8);
+    box-shadow: 20px 20px 40px rgba(198, 139, 28, 0.8);
 }
 
 span{
