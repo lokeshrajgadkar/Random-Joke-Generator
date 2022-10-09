@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color:#9b3114 ;
+    background-color:#a53510 ;
 }
 
 .wrapper{
     width: 80vmin;
     padding: 50px 40px;
-    background-color: rgb(4, 50, 123);
+    background-color: rgb(28, 96, 206);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
