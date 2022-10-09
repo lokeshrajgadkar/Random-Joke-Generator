@@ -6,6 +6,7 @@
 }
 
 body {
+
     background: #ee9ca7; /* fallback for old browsers */
     background: linear-gradient(to right, #9cecfb, #e1c7fe);
   display: flex;
