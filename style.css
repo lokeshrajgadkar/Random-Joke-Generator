@@ -6,14 +6,31 @@
 }
 
 body {
-
-    background: #ee9ca7; /* fallback for old browsers */
-    background: linear-gradient(to right, #9cecfb, #e1c7fe);
+  background: #ee9ca7; /* fallback for old browsers */
+  background: linear-gradient(to right, #9cecfb, #e1c7fe);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
+/* dark mode code start */
+body.dark_mode{
+    background-color: rgb(2, 16, 2); 
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: chartreuse;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0px 0px 0px 1px rgb(0, 0, 0, .2);
+    cursor: pointer;
+}
+/* dark mode code ends */
 
 .wrapper{
     width: 80vmin;

@@ -16,7 +16,20 @@ btn.addEventListener("click", getJoke);
 
 getJoke();
 
-
+// Dark Mode
+const modeBox = document.querySelector('.container');
+const modeSet = document.getElementById('mode-set')
+const body = document.body
+modeBox.addEventListener('click', event => {
+    event.preventDefault();
+    body.classList.toggle('dark_mode');
+    if (modeSet.innerHTML === 'Dark Mode'){
+        modeSet.innerHTML = 'Light Mode';
+    }
+    else{
+        modeSet.textContent = 'Dark Mode';
+    }
+});
 
 
 
